@@ -1,54 +1,12 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="ball.css" />
+<title>Документ без названия</title>
+</head>
+
 <body>
- 
-<style>
-#drop{
-    width:120px;
-    height:120px;
-    border:1px solid #ccc;
-    padding:10px;
-    float:left;
-    }
-.main{
-    width:285px;
-    height:285px;
-    border:1px solid #ccc;
-    padding:10px;
-    margin:auto;
-    }
-</style>
- 
-<script>
-function makeDroppable(e) {
-e.preventDefault();
-}
-function dragImg(e) { 
-e.dataTransfer.setData("text/plain",e.target.id);
-}
-function dropImg(e) {
-e.preventDefault();
-var rdata = e.dataTransfer.getData("text/plain");
-
-e.target.innerHTML=""; 
-e.target.appendChild(document.getElementById(rdata))
-
-
-}
-</script>
- 
-<div class=main>
-<div id="drop" ondrop="dropImg(event)" ondragover="makeDroppable(event)">1</div>
-<div id="drop" ondrop="dropImg(event)" ondragover="makeDroppable(event)">2</div>
-<div id="drop" ondrop="dropImg(event)" ondragover="makeDroppable(event)">3</div>
-<div id="drop" ondrop="dropImg(event)" ondragover="makeDroppable(event)">4</div>
-</div>
-<br><br><br />
-<p>Мына бъектілерді жылжыт</p>
-<img src="01.png" draggable="true" width="120px" ondragstart="dragImg(event)" id="draggable-element-1">
-<img src="02.png" draggable="true" width="120px" ondragstart="dragImg(event)" id="draggable-element-2">
-<img src="03.png" draggable="true" width="120px" ondragstart="dragImg(event)" id="draggable-element-3">
-<img src="04.png" draggable="true" width="120px" ondragstart="dragImg(event)" id="draggable-element-4">
- 
- 
+<div class="ball"></div>
 </body>
 </html>
