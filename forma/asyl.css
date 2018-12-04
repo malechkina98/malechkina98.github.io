@@ -1,0 +1,60 @@
+.surname{
+	position:absolute;
+	left:400px;
+}
+.inis{
+	position:absolute;
+	left:390px;
+}
+.password{
+	position:absolute;
+	left:413px;
+}
+.adresp{
+	position:absolute;
+	left:340px;
+}
+.kol{
+	position:absolute;
+	left:385px;
+}
+.type{
+	position:absolute;
+	left:438px;
+}
+.dost{
+	position:absolute;
+	left:400px;
+}
+.trebu{
+	position:absolute;
+	left:325px;
+}
+.dop{
+	position:absolute;
+	left:270px;
+}
+#zakaz{
+	position:absolute;
+	width:100px;
+	height: 25px;
+	left:103px;
+	top:60px;
+}
+.otm{
+	position:absolute;
+	width:100px;
+	height: 25px;
+	left:210px;
+    top:60px;
+}
+textarea{
+	position:absolute;
+	Overflow-y:scroll;
+}
+.text{
+	position:absolute;
+	text-align:left;
+	left:440px;
+	top:460px;
+}
