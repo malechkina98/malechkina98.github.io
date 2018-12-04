@@ -1,0 +1,30 @@
+table{
+	width:350px;
+	height:500px;
+	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+h3{
+	color:#00FF00;
+}
+td{
+	text-align:center;
+	border:3px solid #800000;
+	color:#000000;
+	font-style: italic;
+	
+}
+.yach{
+	background-color: indianred;
+}
+.a{
+	background-color: indianred;
+}
+.aa{
+	background-color: indianred;
+}
+.aaa{
+	background-color: indianred;
+}
+.aaaa{
+	background-color: indianred;
+}

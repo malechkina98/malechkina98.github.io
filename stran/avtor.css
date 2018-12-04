@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	width:500px;
+	margin:50px 250px 50px 450px;
+	border:10px dotted #CC0033;
+}
+#email{
+	position:absolute;
+	left:60px;
+}
+strong{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	color: #3C0;
+}
+
