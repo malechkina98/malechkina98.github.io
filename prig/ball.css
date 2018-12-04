@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#C3C;
+	background:url(http://dws.mcdir.ru/images/stol1.jpg) no-repeat;
+	background-size:1000px 900px;
+}
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background:#C39;
+  border-radius: 100%;
+  animation: bounce 3s linear infinite,dws-moveleft 25s linear infinite;
+}
+@keyframes bounce {
+  0% {bottom: 100%;}
+  25% {
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+  30% {
+    bottom: 0;
+    height: 50px;
+    width: 110px;
+  }
+  35% {
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+  70% {
+    bottom: 100%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+@keyframes moveLeft {
+  from {left: 0;}
+  to   {left: 100%;}
+}
+
