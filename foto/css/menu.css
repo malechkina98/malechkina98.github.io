@@ -1,0 +1,48 @@
+#menu1{
+	align-content: center;
+}
+#glasses_2, #glasses_1, #glasses_3{
+	float: left;
+	
+}
+#beards_1, #beards_2, #beards_3, #beards_4{
+	float: left;
+	
+}
+#hats_1, #hats_2, #hats_3, #hats_4{
+	float: left;
+	
+}
+
+.ui-resizable
+{
+padding:15px;
+border-style:solid;
+border-width:1px;
+width:150px;
+height:110px;
+margin:10px;
+float:left;
+}
+.helper
+{
+border:1px solid;
+background-color:pink;
+opacity:0.6;
+filter:alpha(opacity=60);
+}
+#tabs
+{
+font-size:0.7em;
+height:700px;
+}
+#res5
+{
+width:200px;
+height:100px;
+}
+#tabs-3 p,#tabs-4 p
+{
+font-size:1.2em;
+}
+
